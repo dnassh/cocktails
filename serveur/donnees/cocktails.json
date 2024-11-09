@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "nom": "Mojito",
+    "type": "Alcoolisé",
+    "ingredients": [
+      "Rhum blanc",
+      "Menthe fraîche",
+      "Sucre",
+      "Citron vert",
+      "Eau gazeuse"
+    ],
+    "prix": 8.5,
+    "image": "mojito.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Piña Colada",
+    "type": "Alcoolisé",
+    "ingredients": ["Rhum blanc", "Lait de coco", "Jus d'ananas"],
+    "prix": 9.0,
+    "image": "pina_colada.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Virgin Mojito",
+    "type": "Sans alcool",
+    "ingredients": ["Menthe fraîche", "Sucre", "Citron vert", "Eau gazeuse"],
+    "prix": 6.0,
+    "image": "virgin_mojito.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Bloody Mary",
+    "type": "Alcoolisé",
+    "ingredients": [
+      "Vodka",
+      "Jus de tomate",
+      "Sauce Worcestershire",
+      "Tabasco",
+      "Citron",
+      "Sel",
+      "Poivre"
+    ],
+    "prix": 7.5,
+    "image": "bloody_mary.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Margarita",
+    "type": "Alcoolisé",
+    "ingredients": ["Tequila", "Triple sec", "Jus de citron vert"],
+    "prix": 8.0,
+    "image": "margarita.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Limonade maison",
+    "type": "Sans alcool",
+    "ingredients": ["Eau", "Citron", "Sucre", "Menthe fraîche"],
+    "prix": 4.5,
+    "image": "limonade_maison.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Cosmopolitan",
+    "type": "Alcoolisé",
+    "ingredients": [
+      "Vodka",
+      "Triple sec",
+      "Jus de cranberry",
+      "Jus de citron vert"
+    ],
+    "prix": 8.5,
+    "image": "cosmopolitan.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Thé glacé à la pêche",
+    "type": "Sans alcool",
+    "ingredients": ["Thé noir", "Jus de pêche", "Sucre", "Glace"],
+    "prix": 5.0,
+    "image": "the_glace_peche.jpg"
+  }
+]

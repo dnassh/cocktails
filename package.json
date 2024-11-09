@@ -1,0 +1,23 @@
+{
+  "name": "app-films",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node serveur.js",
+    "dev": "nodemon serveur.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.2"
+  }
+}
