@@ -6,11 +6,20 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const cocktailsRouter = Router();
-const cheminFichierJSON = path.join(__dirname,"..","donnees", "cocktails.json");
+const cheminFichierJSON = path.join(__dirname,"..","..","..","donnees", "cocktails.json");
 
 console.log(cheminFichierJSON);
+// cocktailsRouter.get("/", (req, res) => {
+//     res.json({
+//         id:4511,
+//         test: "test"
+//     })
+//     // res.sendFile(cheminFichierJSON);
+// });
+
 cocktailsRouter.get("/", (req, res) => {
-    res.sendFile(cheminFichierJSON);
+    console.log("Route /api/v1/cocktails atteinte");
+    res.json({ message: "Route /api/v1/cocktails fonctionne !" });
 });
 
 cocktailsRouter.get("/:id", (req, res) => {
@@ -20,5 +29,4 @@ cocktailsRouter.get("/:id", (req, res) => {
     })
 });
 
-// Exporter le router pour utilisation dans le fichier serveur
 export default cocktailsRouter;
